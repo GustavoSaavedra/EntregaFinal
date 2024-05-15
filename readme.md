@@ -2,6 +2,5 @@ Este proyecto ademas de tener fines educativos, tiene como objetivo ayudar a mi 
 
 Pendientes:
 - Al utilizar bootstrap hubo elementos que se descuadraron. Revisar y cuadrar.
-- Corregir tamaño de imagenes de carrousel
 - Galeria de imagenes
 - Completar pagina ''Nuestros trabajos'' (actualmente se muestra una imagen que indica ''en construcción'')
