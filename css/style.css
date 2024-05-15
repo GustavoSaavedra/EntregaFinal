@@ -491,6 +491,12 @@ footer nav ul li p a:active {
     justify-content: center;
 }
 
+.underc img {
+    width:20rem;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
 .underclink {
     display:flex;
     justify-content: center;
