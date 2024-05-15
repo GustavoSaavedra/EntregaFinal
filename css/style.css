@@ -1,0 +1,623 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.preheader {
+    padding: 0.5rem;
+    background-color: #1A1A1A;
+    align-items: center;
+}
+
+.preheader ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.preheader ul li {
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+
+.preheader ul li a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition:0.5s; /*Asociado a hover*/
+}
+
+/**/
+header {
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(222, 222, 222); /*linea separadora header*/
+    /*grid area*/
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+    "img nav boton";
+    align-items: center;
+}
+/**/
+
+/*logo de header*/
+header .headerlogosavar {
+    grid-area: img;
+    margin-top:1px;
+    margin-bottom:1px;
+    width:9rem;
+    position: relative;
+    left:25%;
+}
+
+header nav {
+    grid-area: nav;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+header nav ul li a {
+    color: #1A1A1A;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 0.7rem;
+    transition:0.5s; /*Asociado a hover*/
+}
+
+/*anima menu principal*/
+header nav ul li a:hover {
+    color: #FB8B22;
+}
+
+header nav ul li a:active {
+    color:#1A1A1A;
+}
+/**/
+
+header div {
+    grid-area: boton;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+header div a {
+    color:#1A1A1A;
+    text-decoration: none;
+}
+
+/*no ovlidar darle clase a este elemento HAMB*/
+header div img {
+    width:1.3rem;
+}
+
+
+/*CENTRO DE LA PAGINA*/
+
+section h1 {
+    color:whitesmoke;
+    margin-top:5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+section h2 {
+    color:whitesmoke;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+section p {
+    text-align: center;
+    color:#E6EBE8;
+    margin: 0px 100px 0px 100px;
+    margin-bottom: 2rem; /*1:11:01 ... 4x16px*/
+}
+
+div.box { /*contenedor de la imagen*/
+    display:flex;
+    justify-content: center;
+}   
+
+.imagenmain { /*valores de la imagen*/
+    border: 1px solid #EE4837;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
+
+/*NUEVOSLEMENTOS*/
+.carousel-inner {
+    margin-bottom: 1rem;
+}
+
+
+.container-quienessomos {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.containertexto {
+    grid-column: 1/2;
+    grid-row: 1/4; 
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.containerimagen {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.containerimagen img {
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.containertextotwo {
+    grid-column: 2/3;
+    grid-row: 1/4; 
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.containerimagentwo {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.containerimagentwo img {
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/*NUEVOSLEMENTOS*/
+
+
+/*FOOTER*/
+
+footer {
+    background-color: whitesmoke;
+    border-top: 1px solid rgb(222, 222, 222);
+    /*grid area*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "img nav";
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*logo de footer*/
+footer .footerlogosavar {
+    grid-area: img;
+    width:15rem;
+    position: relative;
+    left:4.5rem;
+}
+
+footer nav {
+    grid-area: nav;
+    text-align: center; /*centra lista en footer*/
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    margin: 10px;
+}
+
+footer nav ul li p {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+footer nav ul li p a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition:0.5s; /*animacion asociada a hover*/
+}
+
+/*anima links footer*/
+footer nav ul li p a:hover {
+    color: #FB8B22;
+}
+
+footer nav ul li p a:active {
+    color:#1A1A1A;
+}
+/**/
+
+
+.postfooter {
+    padding: 0.5rem;
+    background-color: #1A1A1A;
+    align-items: center;
+}
+
+.postfooter ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.postfooter ul li {
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.postfooter ul li p {
+    color:gray;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition:0.5s; /*Asociado a hover*/
+}
+
+.logowsp {
+    position: fixed;
+    right: 35px;
+    bottom:25px;
+    width:3rem;
+}
+
+/*PSEUDOCLASES*/
+.preheader a:hover {
+    color: #FB8B22;
+    text-decoration: underline;
+}
+
+.preheader a:active {
+    color: whitesmoke;
+}
+
+.header link:hover {
+    color: #FB8B22;
+}
+
+.header link:active {
+    color:#1A1A1A;
+}
+
+/*Anima link del footer*/
+.footer link:hover {
+    color: #FB8B22;
+}
+
+.footer link:active {
+    color:#1A1A1A;
+}
+/*PSEUDOCLASES*/
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .preheader ul li {
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    header .headerlogosavar {
+        margin-top:1px;
+        margin-bottom:1px;
+        width:10rem;
+        position: relative;
+        left:10%;
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header div img {
+        width:1.2rem;
+        margin-right:1.5rem;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer .footerlogosavar {
+        width: 11rem;
+        padding-bottom: 2rem;
+        }
+
+    footer nav.footercontactus {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .logowsp {
+        position: fixed;
+        right: 10px;
+        bottom:25px;
+        width:1.5rem;
+    }
+
+    .containertexto{
+        order: 1;
+    }
+    
+    .containerimagen{
+        order: 2;
+    }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .preheader ul li {
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    header .headerlogosavar {
+        margin-top:1px;
+        margin-bottom:1px;
+        width:10rem;
+        position: relative;
+        left:10%;
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header div img {
+        width:1.2rem;
+        margin-right:1.5rem;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer .footerlogosavar {
+        width: 15rem;
+        padding-bottom: 2rem;
+    }
+
+    footer nav.footercontactus {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .logowsp {
+        position: fixed;
+        right: 10px;
+        bottom:25px;
+        width:1.5rem;
+    }
+
+    .container-quienessomos{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .containertexto {
+        order: 1;
+    }
+    
+    .containerimagen {
+        order: 2;
+    }
+
+    .containertextotwo {
+        order: 1;
+    }
+    
+    .containerimagentwo {
+        order: 2;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .preheader ul li {
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    header .headerlogosavar {
+        margin-top:1px;
+        margin-bottom:1px;
+        width:10rem;
+        position: relative;
+        left:10%;
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header div img {
+        width:1.2rem;
+        margin-right: 1.5rem;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer .footerlogosavar {
+        width: 15rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+    }
+
+    footer nav.footercontactus {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .logowsp {
+        position: fixed;
+        right: 10px;
+        bottom:25px;
+        width:1.5rem;
+    }
+
+    .container-quienessomos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containertexto{
+        order: 1;
+    }
+    
+    .containerimagen{
+        order: 2;
+    }
+
+    .containertextotwo {
+        order: 1;
+    }
+    
+    .containerimagentwo {
+        order: 2;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        grid-template-columns: 2fr 5fr;
+    }
+
+    header .headerlogosavar {
+        width:10rem;
+        position: relative;
+        left:30%;
+    }
+
+
+    header div img {
+    display: none;
+    }
+
+    .logowsp {
+    position: fixed;
+    right: 10px;
+    bottom:25px;
+    width:2.5rem;
+    }
+
+    .container-quienessomos {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .containertexto {
+    order: 1;
+    }
+
+    .containerimagen{
+    order: 2;
+    }
+
+    .containertextotwo {
+    order: 1;
+    }
+
+    .containerimagentwo {
+    order: 2;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    header div img {
+    display: none;
+    }
+}
+
+.underc {
+    display:flex;
+    justify-content: center;
+}
+
+.underclink {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.underclink a {
+    text-decoration: none;
+    color:gray
+}
