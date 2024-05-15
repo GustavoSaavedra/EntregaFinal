@@ -61,6 +61,7 @@ header .headerlogosavar {
     width:9rem;
     position: relative;
     left:25%;
+
 }
 
 header nav {
@@ -619,5 +620,5 @@ footer nav ul li p a:active {
 
 .underclink a {
     text-decoration: none;
-    color:gray
+    color:gray;
 }
