@@ -7,4 +7,3 @@ Pendientes:
 - se realiza cambio de nombre al repositorio de ''git-semana-6'' a "PreEntrega2GustavoSaavedra"
 - testeo nuevo
 - esto es una nueva subida en un repositorio nuevo
-- Prueba Jorge
