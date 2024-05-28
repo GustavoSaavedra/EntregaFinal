@@ -1,0 +1,25 @@
+@import './variable';
+
+.preheader {
+    padding: 0.5rem;
+    background-color: #1A1A1A;
+    align-items: center;
+    
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+            margin-bottom:0.3rem;
+            
+            li {
+                margin-left: 1rem;
+                margin-right: 3rem;
+                a {
+                    color: whitesmoke;
+                    text-decoration: none;
+                    font-size: 0.7rem;
+                    transition:0.5s; /*Asociado a hover*/
+            }
+        }
+    }
+}

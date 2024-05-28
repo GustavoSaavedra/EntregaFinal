@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .logowsp {
+    position: fixed;
+    right: 10px;
+    bottom:25px;
+    width:2.5rem;
+    }
+
+    .headermoblogosavar img {
+        width: 10rem;
+        position: relative;
+        left:0%;
+    }
+
+    .container-quienessomos {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .containertexto {
+    order: 1;
+    }
+
+    .containerimagen{
+    order: 2;
+    }
+
+    .containertextotwo {
+    order: 1;
+    }
+
+    .containerimagentwo {
+    order: 2;
+    }
+}

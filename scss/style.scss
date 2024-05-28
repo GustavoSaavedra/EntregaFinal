@@ -1,0 +1,44 @@
+@import './layout/variable';
+
+//reset
+@import './base/reset';
+
+//layout preheader
+@import './layout/preheader';
+
+//layout header
+@import './layout/header';
+
+//layout carousel
+@import './layout/carousel';
+
+//tarjeta
+@import './layout/tarjeta';
+
+//acordeon
+@import './layout/accordion';
+
+//footer
+@import './layout/footer';
+
+//whatsapp icon
+@import './utilities/whatsapp';
+
+//pseudoclases
+@import './utilities/pseudoclass.scss';
+
+//aviso --en construcción-- pagina 'nuestros trbajos'//
+@import './layout/underconstruction';
+
+
+//mediaQs
+@import './mediaq/desktop';
+@import './mediaq/tablets';
+@import './mediaq/_mobile425';
+@import './mediaq/mobile375';
+@import './mediaq/mobile320';
+
+
+@import '../components/button';
+
+@import 'layout/seccion-secundaria';

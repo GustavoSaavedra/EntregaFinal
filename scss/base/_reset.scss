@@ -1,0 +1,18 @@
+@import '../layout/variable';
+
+
+* {
+    padding:0;
+    margin:0;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    background-color: $primary-color;
+    font-family: "Lato", sans-serif;
+}

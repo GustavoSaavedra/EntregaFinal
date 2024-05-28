@@ -1,0 +1,62 @@
+footer {
+    background-color: $primary-color;
+    border-top: 1px solid rgb(222, 222, 222);
+    /*grid area*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "img nav";
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .footerlogosavar {
+        grid-area: img;
+        width:15rem;
+        position: relative;
+        left:10rem;
+    }
+    nav {
+        grid-area: nav;
+        text-align: center; /*centra lista en footer*/
+        ul {
+            list-style-type: none;
+            li {
+                margin: 10px;
+                p {
+                    color: $footer-nav-text-color;
+                    text-decoration: none;
+                    font-size: 0.7rem;
+                    a {
+                        color: $footer-nav-text-color;
+                        text-decoration: none;
+                        font-size: 0.7rem;
+                        transition:0.5s; /*animacion asociada a hover*/
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//creditos//
+.postfooter {
+    padding: 0.5rem;
+    background-color: #1A1A1A;
+    align-items: center;
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        li {
+            margin-left: 1rem;
+            margin-right: 3rem;
+            p {
+                color:gray;
+                text-decoration: none;
+                font-size: 0.7rem;
+                transition:0.5s; /*Asociado a hover*/
+            }
+        }
+    }
+}

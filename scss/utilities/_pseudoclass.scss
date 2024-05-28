@@ -1,0 +1,39 @@
+/*PSEUDOCLASES*/
+
+/*Anima link del preheader*/
+.preheader a:hover {
+    color: #FB8B22;
+    text-decoration: underline;
+}
+
+.preheader a:active {
+    color: whitesmoke;
+}
+
+/*Anima link del menu principal*/
+.nav-item a:hover {
+    color: #FB8B22;
+    text-decoration: underline;
+}
+
+.nav-item a:active {
+    color: whitesmoke;
+}
+
+/*Anima link del footer*/
+footer nav ul li p a:hover {
+    color: #FB8B22;
+}
+
+footer nav ul li p a:active {
+    color:#1A1A1A;
+}
+
+/*Anima link en underconstruction*/
+.underclink a:hover {
+    color: #FB8B22;
+}
+
+.underclink a:active {
+    color:#1A1A1A;
+}

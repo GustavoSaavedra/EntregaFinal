@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .preheader ul li {
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    .headermoblogosavar img {
+        width: 10rem;
+        position: relative;
+        left:0%;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer .footerlogosavar {
+        width: 15rem;
+        padding-bottom: 2rem;
+    }
+
+    footer nav.footercontactus {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .logowsp {
+        position: fixed;
+        right: 10px;
+        bottom:25px;
+        width:1.5rem;
+    }
+
+    .container-quienessomos{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .containertexto {
+        order: 1;
+    }
+    
+    .containerimagen {
+        order: 2;
+    }
+
+    .containertextotwo {
+        order: 1;
+    }
+    
+    .containerimagentwo {
+        order: 2;
+    }
+}
