@@ -12,4 +12,4 @@ Pendientes:
 
 - la funcion MIXIN se utilizo en la pagina ''nuestros trabajos'', bajo el scss seccion-secundaria.
 
-- Testeando cambio nombre de repositorio.
+- Testeando cambio nombre de repositorio. Nuevo cambio. Se testea cambio.
