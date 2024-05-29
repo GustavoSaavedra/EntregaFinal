@@ -9,3 +9,7 @@ Pendientes:
 - esto es una nueva subida en un repositorio nuevo
 
 - en esta oportunidad, se migro CSS a SASS completamente, agregando los elemntos solicitados en clase.
+
+- la funcionalidad de ''EXTEND'' se utilizo en el componente ''button'', asociado al scss underconstruction.
+
+- la funcion MIXIN se utilizo en la pagina ''nuestros trabajos'', bajo el scss seccion-secundaria.

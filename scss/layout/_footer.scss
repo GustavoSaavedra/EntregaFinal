@@ -42,8 +42,7 @@ footer {
 //creditos//
 .postfooter {
     padding: 0.5rem;
-    background-color: #1A1A1A;
-    align-items: center;
+    background-color: $secundary-color;
     ul {
         list-style-type: none;
         display: flex;
@@ -53,9 +52,11 @@ footer {
             margin-right: 3rem;
             p {
                 color:gray;
-                text-decoration: none;
                 font-size: 0.7rem;
-                transition:0.5s; /*Asociado a hover*/
+                a {
+                    text-decoration: none;
+                    color: $third-color;
+                }
             }
         }
     }

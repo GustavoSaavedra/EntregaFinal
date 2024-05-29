@@ -11,31 +11,9 @@
         left:0%;
     }
 
-    footer {
-        grid-template-columns: 1fr;
-    }
-
-    footer .footerlogosavar {
-        width: 15rem;
-        padding-bottom: 2rem;
-    }
-
-    footer nav.footercontactus {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-
-    .logowsp {
-        position: fixed;
-        right: 10px;
-        bottom:25px;
-        width:1.5rem;
-    }
-
     .container-quienessomos{
         display: flex;
         flex-direction: column;
-
     }
 
     .containertexto {
@@ -52,5 +30,28 @@
     
     .containerimagentwo {
         order: 2;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        .footerlogosavar {
+            position: relative;
+            left: 4rem;
+            width: 15rem;
+            padding-bottom: 2rem;
+        }
+        nav.footercontactus {
+            position: relative;
+            right: 1rem;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    }
+
+    .logowsp {
+        position: fixed;
+        right: 10px;
+        bottom:25px;
+        width:1.5rem;
     }
 }

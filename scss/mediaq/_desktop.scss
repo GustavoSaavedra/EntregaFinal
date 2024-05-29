@@ -4,8 +4,16 @@
         flex-basis: auto;
         justify-content: center;
         }
+
+    footer .footerlogosavar {
+        position: relative;
+        left: 8rem;
+    }
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
+    footer .footerlogosavar {
+        position: relative;
+        left: 13rem;
+    }
 }

@@ -1,8 +1,6 @@
-@import './variable';
-
 .preheader {
     padding: 0.5rem;
-    background-color: #1A1A1A;
+    background-color: $secundary-color;
     align-items: center;
     
         ul {

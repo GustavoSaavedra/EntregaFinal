@@ -8,13 +8,13 @@
     }
 }
 
+.underclink a {
+    @extend .button-link;
+}
+
 .underclink {
     display:flex;
     justify-content: center;
     margin-bottom: 1px;
-    font-size: 109px;
-}
-
-.underclink a {
-    @extend .button-link;
+    font-size: 15px;
 }
