@@ -2,19 +2,17 @@
     padding: 0.5rem;
     background-color: $secundary-color;
     align-items: center;
-    
-        ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: end;
-            margin-bottom:0.3rem;
-            
-            li {
-                margin-left: 1rem;
-                margin-right: 3rem;
-                a {
-                    @extend .preheader-style;
-                    transition:0.7s; /*Asociado a hover*/
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-bottom:0.3rem;   
+        li {
+            margin-left: 1rem;
+            margin-right: 3rem;
+            a {
+                @extend .preheader-style;
+                transition:0.7s; /*Asociado a hover*/
             }
         }
     }
