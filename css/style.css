@@ -340,7 +340,7 @@ footer nav ul li p a:active {
     order: 2;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 424px) {
+@media screen and (min-width: 375px) and (max-width: 413px) {
   .preheader ul li {
     margin-left: 1rem;
     margin-right: 0rem;
@@ -431,6 +431,54 @@ footer nav ul li p a:active {
   }
   .postfooter ul li p {
     font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 424px) {
+  .preheader ul li {
+    margin-left: 1rem;
+    margin-right: 0rem;
+  }
+  .headermoblogosavar img {
+    width: 10rem;
+    position: relative;
+    left: 0%;
+  }
+  .container-quienessomos {
+    display: flex;
+    flex-direction: column;
+  }
+  .containertexto {
+    order: 1;
+  }
+  .containerimagen {
+    order: 2;
+  }
+  .containertextotwo {
+    order: 1;
+  }
+  .containerimagentwo {
+    order: 2;
+  }
+  footer {
+    grid-template-columns: 1fr;
+  }
+  footer .footerlogosavar {
+    position: relative;
+    left: 5.5rem;
+    width: 15rem;
+    padding-bottom: 2rem;
+  }
+  footer nav.footercontactus {
+    position: relative;
+    right: 1rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .logowsp {
+    position: fixed;
+    right: 10px;
+    bottom: 25px;
+    width: 1.5rem;
   }
 }
 .button-link, .underclink a {
