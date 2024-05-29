@@ -3,3 +3,15 @@
     text-decoration: none;
     transition:0.5s; /*animacion asociada a hover*/
 }
+
+.preheader-style { //estilo para preheader.
+    text-decoration: none;
+    color: $third-color;
+    font-size: 0.7rem;
+}
+
+.postfooter-style { //estilo para creditos.
+    text-decoration: none;
+    color: $third-color;
+    font-size: 0.7rem;
+}

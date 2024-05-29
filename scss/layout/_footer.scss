@@ -39,25 +39,3 @@ footer {
 }
 
 
-//creditos//
-.postfooter {
-    padding: 0.5rem;
-    background-color: $secundary-color;
-    ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        li {
-            margin-left: 1rem;
-            margin-right: 3rem;
-            p {
-                color:gray;
-                font-size: 0.7rem;
-                a {
-                    text-decoration: none;
-                    color: $third-color;
-                }
-            }
-        }
-    }
-}

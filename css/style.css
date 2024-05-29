@@ -30,10 +30,7 @@ body {
   margin-right: 3rem;
 }
 .preheader ul li a {
-  color: whitesmoke;
-  text-decoration: none;
-  font-size: 0.7rem;
-  transition: 0.5s; /*Asociado a hover*/
+  transition: 0.7s; /*Asociado a hover*/
 }
 
 .headermoblogosavar img {
@@ -182,15 +179,6 @@ footer nav ul li p a {
   margin-left: 1rem;
   margin-right: 3rem;
 }
-.postfooter ul li p {
-  color: gray;
-  font-size: 0.7rem;
-}
-.postfooter ul li p a {
-  text-decoration: none;
-  color: gray;
-}
-
 .logowsp {
   position: fixed;
   right: 35px;
@@ -450,6 +438,18 @@ footer nav ul li p a:active {
   color: #1A1A1A;
   text-decoration: none;
   transition: 0.5s; /*animacion asociada a hover*/
+}
+
+.preheader-style, .preheader ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.postfooter-style, .postfooter ul li p, .postfooter ul li p a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
 }
 
 .seccion-secundaria h5 {
