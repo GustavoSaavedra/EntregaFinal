@@ -33,6 +33,10 @@
 //aviso --en construcción-- pagina 'nuestros trbajos'//
 @import './layout/underconstruction';
 
+//variables, mixins, extends//
+@import './components/button';
+@import './layout/seccion-secundaria';
+@import './layout/variable';
 
 //mediaQs//
 @import './mediaq/desktop';
@@ -41,8 +45,3 @@
 @import './mediaq/mobile375';
 @import './mediaq/mobile320';
 @import './mediaq/mobileiphoneXR';
-
-//variables, mixins, extends//
-@import './components/button';
-@import './layout/seccion-secundaria';
-@import './layout/variable';

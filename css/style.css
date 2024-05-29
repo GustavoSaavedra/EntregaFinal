@@ -66,7 +66,6 @@ body {
   grid-row: 1/4;
   margin: auto;
   width: 100%;
-  text-align: center;
 }
 .container-quienessomos .containerimagen img {
   width: 100%;
@@ -83,6 +82,18 @@ body {
   font-size: 1rem;
   color: #1A1A1A;
 }
+.container-quienessomos .containerimagentwo {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  margin: auto;
+  width: 100%;
+}
+.container-quienessomos .containerimagentwo img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: auto;
+}
 .container-quienessomos .containertextotwo {
   grid-column: 2/3;
   grid-row: 1/4;
@@ -91,19 +102,6 @@ body {
   text-align: center;
   font-size: 1rem;
   color: #1A1A1A;
-}
-.container-quienessomos .containerimagentwo {
-  grid-column: 1/2;
-  grid-row: 1/4;
-  margin: auto;
-  width: 100%;
-  text-align: center;
-}
-.container-quienessomos .containerimagentwo img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  margin: auto;
 }
 
 .image-container {
@@ -239,6 +237,46 @@ footer nav ul li p a:active {
   justify-content: center;
   margin-bottom: 1px;
   font-size: 15px;
+}
+
+.button-link, .underclink a {
+  color: #1A1A1A;
+  text-decoration: none;
+  transition: 0.5s; /*animacion asociada a hover*/
+}
+
+.preheader-style, .preheader ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.postfooter-style, .postfooter ul li p, .postfooter ul li p a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.seccion-secundaria h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #1A1A1A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.seccion-secundaria h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  color: #1A1A1A;
+  font-size: 22px;
+  font-weight: 20px;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
@@ -480,45 +518,6 @@ footer nav ul li p a:active {
     bottom: 25px;
     width: 1.5rem;
   }
-}
-.button-link, .underclink a {
-  color: #1A1A1A;
-  text-decoration: none;
-  transition: 0.5s; /*animacion asociada a hover*/
-}
-
-.preheader-style, .preheader ul li a {
-  text-decoration: none;
-  color: gray;
-  font-size: 0.7rem;
-}
-
-.postfooter-style, .postfooter ul li p, .postfooter ul li p a {
-  text-decoration: none;
-  color: gray;
-  font-size: 0.7rem;
-}
-
-.seccion-secundaria h5 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  color: #1A1A1A;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-.seccion-secundaria h6 {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  text-align: center;
-  color: #1A1A1A;
-  font-size: 22px;
-  font-weight: 20px;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

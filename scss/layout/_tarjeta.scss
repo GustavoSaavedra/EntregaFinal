@@ -1,3 +1,11 @@
+@mixin propiedades-container-texto {
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: $cards-text-color;
+}
+
 //tarjeta index//
 //una tarjeta se comparte en 2 paginas distintas
 .container-quienessomos {
@@ -17,7 +25,6 @@
         grid-row: 1/4;
         margin: auto;
         width: 100%;
-        text-align: center;
     }
     .containerimagen img {
         width: 100%;
@@ -28,34 +35,25 @@
     .containertexto {
         grid-column: 1/2;
         grid-row: 1/4; 
-        padding: 0.5rem;
-        margin: auto;
-        text-align: center;
-        font-size: 1rem;
-        color: $cards-text-color;
+        @include propiedades-container-texto()
     }
 
     //tarjeta pagina quienes somos
-    .containertextotwo {
-        grid-column: 2/3;
-        grid-row: 1/4; 
-        padding: 0.5rem;
-        margin: auto;
-        text-align: center;
-        font-size: 1rem;
-        color: $cards-text-color;
-    }
     .containerimagentwo {
         grid-column: 1/2;
         grid-row: 1/4;
         margin: auto;
         width: 100%;
-        text-align: center;
     }
     .containerimagentwo img {
         width: 100%;
         object-fit:cover;
         border-radius: 20px;
         margin: auto;
+    }
+    .containertextotwo {
+        grid-column: 2/3;
+        grid-row: 1/4; 
+        @include propiedades-container-texto()
     }
 }
