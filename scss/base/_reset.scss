@@ -13,6 +13,7 @@
 }
 
 body {
-    background-color: $primary-color;
+    //background-color: $primary-color;//
+    background-image: linear-gradient(to left, $fourth-color, $primary-color); //gradiente
     font-family: "Lato", sans-serif;
 }

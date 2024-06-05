@@ -12,7 +12,7 @@
             p {
                 @extend .postfooter-style;
                 a {
-                    @extend .postfooter-style;
+                    @extend .postfooter-style; //button.scss
                 }
             }
         }

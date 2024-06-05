@@ -1,4 +1,6 @@
-.button-link {
+//hoja para extend
+
+.button-link { //estilo para boton link underconstruction.scss
     color: $undec-back-button;
     text-decoration: none;
     transition:0.5s; /*animacion asociada a hover*/
@@ -10,7 +12,7 @@
     font-size: 0.7rem;
 }
 
-.postfooter-style { //estilo para creditos.
+.postfooter-style { //estilo para post-footer.
     text-decoration: none;
     color: $third-color;
     font-size: 0.7rem;
