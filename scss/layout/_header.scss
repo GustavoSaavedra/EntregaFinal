@@ -11,6 +11,17 @@
 }
 
 .nav-link {
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     transition:0.5s; /*Asociado a hover*/
+}
+
+.dropdown-menu {
+    justify-content: center;
+    text-align: center;
+}
+
+.dropdown-menu[data-bs-popper] { /*Posicion de submenu al expandir*/
+    top: 100%;
+    left: 10px;
 }
