@@ -274,7 +274,8 @@ footer nav ul li p a:active {
 .underclink {
   display: flex;
   justify-content: center;
-  margin-bottom: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 15px;
 }
 
@@ -557,6 +558,26 @@ footer nav ul li p a:active {
     bottom: 25px;
     width: 1.5rem;
   }
+}
+section div div p {
+  text-align: center;
+}
+
+.album {
+  padding: 50px 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
