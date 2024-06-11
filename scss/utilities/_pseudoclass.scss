@@ -20,6 +20,15 @@
     color: whitesmoke;
 }
 
+.card-title a:hover {
+    color: #FB8B22;
+    text-decoration: underline;
+}
+
+.card-title a:active {
+    color: whitesmoke;
+}
+
 /*Anima link del footer*/
 footer nav ul li p a:hover {
     color: #FB8B22;

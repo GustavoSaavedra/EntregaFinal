@@ -132,9 +132,14 @@ section h1 {
 .card2 {
   margin-bottom: 5rem;
 }
-.card2 .col .card .card-body .card-title {
+.card2 .card-title {
   text-align: center;
   margin-bottom: 1rem;
+}
+.card2 .card-title a {
+  color: #1A1A1A;
+  text-decoration: none;
+  transition: 0.5s; /*Asociado a hover*/
 }
 
 .image-container {
@@ -235,6 +240,15 @@ footer nav ul li p a {
 }
 
 .nav-item a:active {
+  color: whitesmoke;
+}
+
+.card-title a:hover {
+  color: #FB8B22;
+  text-decoration: underline;
+}
+
+.card-title a:active {
   color: whitesmoke;
 }
 
