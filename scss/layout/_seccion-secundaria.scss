@@ -1,31 +1,41 @@
-@mixin propiedades-parrafo {
+@mixin titulo-galeria {
     display:flex;
     justify-content: center;
     color: $secundary-color;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 2.5rem;
 }
 
-@mixin estilos-parrafo ($color, $size, $grosor, $decoration) {
+@mixin subtitulo-galeria {
+    display:flex;
+    justify-content: center;
+    color: $secundary-color;
+    font-size: 1rem;
+}
+
+@mixin texto-tarjeta-galeria ($color, $size, $grosor, $decoration) {
     color: $color;
     font-size: $size;
     font-weight: $grosor;
     text-decoration: $decoration;
 }
 
-.seccion-secundaria { 
-    h5 {
+.container-fluid { 
+    h1 {
+        @include titulo-galeria()
+    }
+    p {
         display:flex;
         justify-content: center;
         margin-top:20px;
         text-align:center;
-        @include propiedades-parrafo() 
+        @include subtitulo-galeria() 
     }
-    h6 {
-        display:flex;
-        justify-content: center;
-        margin-top:10px;
-        text-align:center;
-        @include estilos-parrafo($secundary-color, 22px, 20px, none ) 
-    }
+}
+
+.card p {
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+    text-align:center;
+    @include texto-tarjeta-galeria($secundary-color, 1rem, 20px, none ) 
 }

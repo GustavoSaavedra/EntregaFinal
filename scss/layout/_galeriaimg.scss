@@ -26,3 +26,26 @@ section {
 .card-body {
     padding: 15px;
 }
+
+
+.underc {
+    display:flex;
+    justify-content: center;
+    img {
+        width:20rem;
+        margin-top:3rem;
+        margin-bottom:3rem;
+    }
+}
+
+.underclink a {
+    @extend .button-link; 
+}
+
+.underclink {
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+}

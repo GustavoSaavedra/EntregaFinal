@@ -275,24 +275,6 @@ footer nav ul li p a:active {
   transform: rotate(-100deg);
 }
 
-.underc {
-  display: flex;
-  justify-content: center;
-}
-.underc img {
-  width: 20rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.underclink {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 15px;
-}
-
 .button-link, .underclink a {
   color: #1A1A1A;
   text-decoration: none;
@@ -311,7 +293,13 @@ footer nav ul li p a:active {
   font-size: 0.7rem;
 }
 
-.seccion-secundaria h5 {
+.container-fluid h1 {
+  display: flex;
+  justify-content: center;
+  color: #1A1A1A;
+  font-size: 2.5rem;
+}
+.container-fluid p {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -319,16 +307,16 @@ footer nav ul li p a:active {
   display: flex;
   justify-content: center;
   color: #1A1A1A;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
-.seccion-secundaria h6 {
+
+.card p {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   text-align: center;
   color: #1A1A1A;
-  font-size: 22px;
+  font-size: 1rem;
   font-weight: 20px;
   text-decoration: none;
 }
@@ -592,6 +580,24 @@ section div div p {
 
 .card-body {
   padding: 15px;
+}
+
+.underc {
+  display: flex;
+  justify-content: center;
+}
+.underc img {
+  width: 20rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.underclink {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
