@@ -468,7 +468,7 @@ footer nav ul li p a:active {
     width: 1.5rem;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (max-width: 374px) {
   .preheader ul li {
     margin-left: 1rem;
     margin-right: 0rem;
