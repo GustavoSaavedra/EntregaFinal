@@ -1,6 +1,8 @@
 @mixin titulo-galeria {
     display:flex;
     justify-content: center;
+    margin-top: 4rem;
+    text-align: center;
     color: $secundary-color;
     font-size: 2.5rem;
 }
@@ -24,10 +26,9 @@
         @include titulo-galeria()
     }
     p {
-        display:flex;
-        justify-content: center;
-        margin-top:20px;
         text-align:center;
+        margin-top:2px;
+        margin-bottom: 2rem;
         @include subtitulo-galeria() 
     }
 }
