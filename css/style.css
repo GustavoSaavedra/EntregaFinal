@@ -372,7 +372,7 @@ footer nav ul li p a:active {
     width: 2.5rem;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 414px) and (max-width: 767px) {
   .preheader ul li {
     margin-left: 1rem;
     margin-right: 0rem;
@@ -408,6 +408,9 @@ footer nav ul li p a:active {
     display: flex;
     flex-direction: column;
   }
+  .container-fluid h1 {
+    font-size: 8vw;
+  }
   .containertexto {
     order: 1;
   }
@@ -434,6 +437,9 @@ footer nav ul li p a:active {
   .container-quienessomos {
     display: flex;
     flex-direction: column;
+  }
+  .container-fluid h1 {
+    font-size: 8vw;
   }
   .containertexto {
     order: 1;
@@ -486,6 +492,9 @@ footer nav ul li p a:active {
   .containertexto {
     order: 1;
   }
+  .container-fluid h1 {
+    font-size: 8vw;
+  }
   .containerimagen {
     order: 2;
   }
@@ -527,6 +536,9 @@ footer nav ul li p a:active {
   .container-quienessomos {
     display: flex;
     flex-direction: column;
+  }
+  .container-fluid h1 {
+    font-size: 8vw;
   }
   .containertexto {
     order: 1;

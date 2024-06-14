@@ -19,6 +19,12 @@
         order: 1;
     }
 
+    .container-fluid { 
+        h1 {
+            font-size: 8vw;
+        }
+    }
+
     .containerimagen{
         order: 2;
     }
@@ -56,3 +62,4 @@
         }
     }
 }
+
